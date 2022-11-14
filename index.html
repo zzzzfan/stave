@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 上层按键 -->
+    <div id="generatingStaff">
+      <div class="center">
+        <input id="capacity" type="text" placeholder="每排的放置量" />
+        <button onclick="redulid()">重建</button>
+      </div>
+      <div class="center">
+        <input id="generate" type="text" placeholder="排数" />
+        <button onclick="generate()">生成</button>
+      </div>
+    </div>
+    <!-- 五线谱 -->
+    <div id="content"><div id="container"></div></div>
+    <!-- 下层按键 -->
+    <div id="notelist"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
